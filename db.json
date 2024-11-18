@@ -1,62 +1,107 @@
 {
   "posts": [
     {
-  "id": 1,
-  "titulo": "Panqueca de Banana",
-  "tipoRefeicao": "Café da manhã",
-  "porcoes": 2,
-  "dificuldade": "Iniciante",
-  "ingredientes": [
-    { "nome": "Banana", "quantidade": "2 unidades" },
-    { "nome": "Farinha de trigo", "quantidade": "1 xícara" },
-    { "nome": "Ovo", "quantidade": "1 unidade" }
-  ],
-  "passosPreparo": [
-    "Amassar a banana.",
-    "Misturar todos os ingredientes.",
-    "Fritar as panquecas em uma frigideira."
-  ]
-},
-    {
-  "id": 2,
-  "titulo": "Bolo de Cenoura",
-  "tipoRefeicao": "Lanche",
-  "porcoes": 8,
-  "dificuldade": "Intermediário",
-  "ingredientes": [
-    { "nome": "Cenoura", "quantidade": "2 unidades médias" },
-    { "nome": "Farinha de trigo", "quantidade": "2 xícaras" },
-    { "nome": "Açúcar", "quantidade": "1 e 1/2 xícara" },
-    { "nome": "Ovos", "quantidade": "3 unidades" },
-    { "nome": "Óleo", "quantidade": "1/2 xícara" },
-    { "nome": "Fermento em pó", "quantidade": "1 colher de sopa" }
-  ],
-  "passosPreparo": [
-    "Bater a cenoura, os ovos e o óleo no liquidificador.",
-    "Adicionar o açúcar e a farinha de trigo, misturando bem.",
-    "Colocar o fermento e mexer suavemente.",
-    "Assar em forno pré-aquecido a 180°C por cerca de 40 minutos."
-  ]
-},
-    {
-  "id": 3,
-  "titulo": "Salada de Frutas",
-  "tipoRefeicao": "Lanche",
-  "porcoes": 4,
-  "dificuldade": "Iniciante",
-  "ingredientes": [
-    { "nome": "Maçã", "quantidade": "2 unidades" },
-    { "nome": "Banana", "quantidade": "2 unidades" },
-    { "nome": "Laranja", "quantidade": "1 unidade" },
-    { "nome": "Uva", "quantidade": "1 cacho pequeno" },
-    { "nome": "Abacaxi", "quantidade": "1 fatia média" }
-  ],
-  "passosPreparo": [
-    "Cortar todas as frutas em pedaços pequenos.",
-    "Misturar tudo em uma tigela.",
-    "Servir imediatamente ou deixar na geladeira até o momento de servir."
-  ]
+  "receita1": {
+    "id": 1,
+    "titulo": "Panqueca de Banana",
+    "tipoRefeicao": "Café da manhã",
+    "porcoes": 2,
+    "dificuldade": "Iniciante",
+    "ingredientes": [
+      {
+        "nome": "Banana",
+        "quantidade": "2 unidades"
+      },
+      {
+        "nome": "Farinha de trigo",
+        "quantidade": "1 xícara"
+      },
+      {
+        "nome": "Ovo",
+        "quantidade": "1 unidade"
+      }
+    ],
+    "passosPreparo": [
+      "Amassar a banana.",
+      "Misturar todos os ingredientes.",
+      "Fritar as panquecas em uma frigideira."
+    ]
+  },
+  "receita2": {
+    "id": 2,
+    "titulo": "Bolo de Cenoura",
+    "tipoRefeicao": "Lanche",
+    "porcoes": 8,
+    "dificuldade": "Intermediário",
+    "ingredientes": [
+      {
+        "nome": "Cenoura",
+        "quantidade": "2 unidades médias"
+      },
+      {
+        "nome": "Farinha de trigo",
+        "quantidade": "2 xícaras"
+      },
+      {
+        "nome": "Açúcar",
+        "quantidade": "1 e 1/2 xícara"
+      },
+      {
+        "nome": "Ovos",
+        "quantidade": "3 unidades"
+      },
+      {
+        "nome": "Óleo",
+        "quantidade": "1/2 xícara"
+      },
+      {
+        "nome": "Fermento em pó",
+        "quantidade": "1 colher de sopa"
+      }
+    ],
+    "passosPreparo": [
+      "Bater a cenoura, os ovos e o óleo no liquidificador.",
+      "Adicionar o açúcar e a farinha de trigo, misturando bem.",
+      "Colocar o fermento e mexer suavemente.",
+      "Assar em forno pré-aquecido a 180°C por cerca de 40 minutos."
+    ]
+  },
+  "receita3": {
+    "id": 3,
+    "titulo": "Salada de Frutas",
+    "tipoRefeicao": "Lanche",
+    "porcoes": 4,
+    "dificuldade": "Iniciante",
+    "ingredientes": [
+      {
+        "nome": "Maçã",
+        "quantidade": "2 unidades"
+      },
+      {
+        "nome": "Banana",
+        "quantidade": "2 unidades"
+      },
+      {
+        "nome": "Laranja",
+        "quantidade": "1 unidade"
+      },
+      {
+        "nome": "Uva",
+        "quantidade": "1 cacho pequeno"
+      },
+      {
+        "nome": "Abacaxi",
+        "quantidade": "1 fatia média"
+      }
+    ],
+    "passosPreparo": [
+      "Cortar todas as frutas em pedaços pequenos.",
+      "Misturar tudo em uma tigela.",
+      "Servir imediatamente ou deixar na geladeira até o momento de servir."
+    ]
+  }
 }
+
 
   ],
   "comments": [
